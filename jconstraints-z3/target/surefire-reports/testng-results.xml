@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="8413" started-at="2019-06-17T11:29:44Z" finished-at="2019-06-17T11:29:52Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="8413" started-at="2019-06-17T11:29:44Z" finished-at="2019-06-17T11:29:52Z">
+      <class name="gov.nasa.jpf.constraints.solver.QuantifierEliminationTest">
+        <test-method status="PASS" signature="eliminationTest()[pri:0, instance:gov.nasa.jpf.constraints.solver.QuantifierEliminationTest@3498ed]" name="eliminationTest" duration-ms="68" started-at="2019-06-17T15:59:45Z" finished-at="2019-06-17T15:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eliminationTest -->
+      </class> <!-- gov.nasa.jpf.constraints.solver.QuantifierEliminationTest -->
+      <class name="gov.nasa.jpf.constraints.expressions.ExpressionZ3Test">
+        <test-method status="PASS" signature="expressionTest()[pri:0, instance:gov.nasa.jpf.constraints.expressions.ExpressionZ3Test@3cda1055]" name="expressionTest" duration-ms="178" started-at="2019-06-17T15:59:45Z" finished-at="2019-06-17T15:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expressionTest -->
+      </class> <!-- gov.nasa.jpf.constraints.expressions.ExpressionZ3Test -->
+      <class name="gov.nasa.jpf.constraints.expressions.IntegerTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:gov.nasa.jpf.constraints.expressions.IntegerTest@4411d970]" name="setUpClass" is-config="true" duration-ms="1" started-at="2019-06-17T15:59:45Z" finished-at="2019-06-17T15:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="testIntegerFunction()[pri:0, instance:gov.nasa.jpf.constraints.expressions.IntegerTest@4411d970]" name="testIntegerFunction" duration-ms="19" started-at="2019-06-17T15:59:45Z" finished-at="2019-06-17T15:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIntegerFunction -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:gov.nasa.jpf.constraints.expressions.IntegerTest@4411d970]" name="setUpMethod" is-config="true" duration-ms="0" started-at="2019-06-17T15:59:45Z" finished-at="2019-06-17T15:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:gov.nasa.jpf.constraints.expressions.IntegerTest@4411d970]" name="tearDownMethod" is-config="true" duration-ms="1" started-at="2019-06-17T15:59:45Z" finished-at="2019-06-17T15:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:gov.nasa.jpf.constraints.expressions.IntegerTest@4411d970]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2019-06-17T15:59:45Z" finished-at="2019-06-17T15:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- gov.nasa.jpf.constraints.expressions.IntegerTest -->
+      <class name="gov.nasa.jpf.constraints.expressions.ContextTest">
+        <test-method status="PASS" signature="testToString()[pri:0, instance:gov.nasa.jpf.constraints.expressions.ContextTest@3fb6a447]" name="testToString" duration-ms="837" started-at="2019-06-17T15:59:44Z" finished-at="2019-06-17T15:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString -->
+      </class> <!-- gov.nasa.jpf.constraints.expressions.ContextTest -->
+      <class name="gov.nasa.jpf.constraints.expressions.TrigonometricTest">
+        <test-method status="PASS" signature="testAtan2()[pri:0, instance:gov.nasa.jpf.constraints.expressions.TrigonometricTest@668bc3d5]" name="testAtan2" duration-ms="5966" started-at="2019-06-17T15:59:45Z" finished-at="2019-06-17T15:59:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAtan2 -->
+        <test-method status="PASS" signature="testCoral1()[pri:0, instance:gov.nasa.jpf.constraints.expressions.TrigonometricTest@668bc3d5]" name="testCoral1" duration-ms="694" started-at="2019-06-17T15:59:51Z" finished-at="2019-06-17T15:59:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCoral1 -->
+        <test-method status="PASS" signature="testCoral2()[pri:0, instance:gov.nasa.jpf.constraints.expressions.TrigonometricTest@668bc3d5]" name="testCoral2" duration-ms="216" started-at="2019-06-17T15:59:52Z" finished-at="2019-06-17T15:59:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCoral2 -->
+        <test-method status="PASS" signature="testTrigonometrics()[pri:0, instance:gov.nasa.jpf.constraints.expressions.TrigonometricTest@668bc3d5]" name="testTrigonometrics" duration-ms="178" started-at="2019-06-17T15:59:52Z" finished-at="2019-06-17T15:59:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTrigonometrics -->
+      </class> <!-- gov.nasa.jpf.constraints.expressions.TrigonometricTest -->
+      <class name="gov.nasa.jpf.constraints.solver.ExpressionConversionTest">
+        <test-method status="PASS" signature="testExpressionConversion()[pri:0, instance:gov.nasa.jpf.constraints.solver.ExpressionConversionTest@1a407d53]" name="testExpressionConversion" duration-ms="1" started-at="2019-06-17T15:59:45Z" finished-at="2019-06-17T15:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpressionConversion -->
+      </class> <!-- gov.nasa.jpf.constraints.solver.ExpressionConversionTest -->
+      <class name="gov.nasa.jpf.constraints.expressions.ExpressionZ3BVTest">
+        <test-method status="PASS" signature="expressionTest()[pri:0, instance:gov.nasa.jpf.constraints.expressions.ExpressionZ3BVTest@7a5d012c]" name="expressionTest" duration-ms="214" started-at="2019-06-17T15:59:45Z" finished-at="2019-06-17T15:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expressionTest -->
+      </class> <!-- gov.nasa.jpf.constraints.expressions.ExpressionZ3BVTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

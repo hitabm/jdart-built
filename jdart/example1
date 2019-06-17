@@ -1,0 +1,265 @@
+[FINEST] Regex is ^(this\..*)$
+[FINEST] JDart.run() -- begin
+[FINEST] Regex is ^(this\..*)$
+[FINEST] ============ JPF Config     ============
+[FINEST] -- listing properties --
+report.xml.class=gov.nasa.jpf.report.XMLPublisher
+concolic.method.foo=features.simple.Input.foo(i:int)
+jpf-core=/jdart-project/jpf-core
+report.console.probe=statistics
+extensions=/jdart-project/jpf-core
+sourcepath=/jdart-project/jdart/src/examples,/jd...
+cg.break_single_choice=false
+report.console.show_code=false
+concolic.method.ctor.config=ctor
+report.html.class=gov.nasa.jpf.report.HTMLPublisher
+report.console.transition=
+search.properties=gov.nasa.jpf.vm.NotDeadlockedProperty...
+concolic.method.baz.config=baz
+cg.threads.break_arrays=false
+vm.serializer.class=gov.nasa.jpf.vm.serialize.CFSerializer
+jdart.configs.zoo.exploration.suspend=*.zoo_sub(*
+cg.threads.break_start=true
+vm.shared.break_on_exposure=true
+log.handler.class=gov.nasa.jpf.util.LogHandler
+jpf.site=/root/.jpf/site.properties
+race.exclude=java.*,javax.*
+vm.scheduler.sync.class=gov.nasa.jpf.vm.AllRunnablesSyncPolicy
+jdart.configs.baz.symbolic.include=d.*
+jdart.configs.zoo.constraints=f > 256.0f;j >= 0
+vm.shared.never_break_types=java.util.concurrent.TimeUnit
+cg.enable_atomic=true
+jpf-jdart.native_classpath=/jdart-project/jdart/lib/ST-4.0.5.jar...
+cg.max_processors=1
+jpf-core.peer_packages=gov.nasa.jpf.vm,<model>,<default>
+concolic.method.zoo.config=zoo
+log.info=constraints
+report.html.property_violation=
+test.report.console.finished=result
+report.console.show_method=true
+vm.scheduler_factory.class=gov.nasa.jpf.vm.DefaultSchedulerFactory
+report.html.constraint=constraint
+report.console.start=
+listener.autoload=gov.nasa.jpf.NonNull,gov.nasa.jpf.Const
+symbolic.dp.z3.bitvectors=true
+vm.shared.never_break_methods=java.util.concurrent.ThreadPoolExecut...
+jpf-jdart=/jdart-project/jdart
+search.heuristic.queue_limit=-1
+report.html.finished=result,statistics,error,snapshot,output
+jpf-core.native_classpath=/jdart-project/jpf-core/build/jpf.jar...
+jdart.configs.all_fields_symbolic.symbolic.include=this.*
+vm.boot_classpath=<system>
+classpath=/jdart-project/jdart/build/jpf-jdart-...
+jpf-core.test_classpath=/jdart-project/jpf-core/build/tests
+concolic.method.baz=features.simple.Input.baz(d:features....
+vm.store_steps=false
+perturb.foo.method=features.simple.Input.foo(int)
+concolic.method=foo
+vm.shared.sync_detection=true
+concolic.method.zoo=features.simple.Input.zoo(i:int,j:sho...
+report.html.start=jpf,sut,platform,user,dtg,config
+concolic.method.bar=features.simple.Input.bar(d:double)
+vm.shared.skip_constructed_finals=false
+search.multiple_errors=true
+cg.boolean.false_first=true
+vm.ignore_uncaught_handler=false
+jpf-jdart.test_classpath=/jdart-project/jdart/build/tests;/jda...
+jpf.print_exception_stack=true
+search.match_depth=false
+cg.enumerate_random=false
+vm.threadlist.class=gov.nasa.jpf.vm.ThreadList
+vm.reuse_tid=false
+jpf-jdart.classpath=/jdart-project/jdart/build/jpf-jdart-...
+vm.fields_factory.class=gov.nasa.jpf.vm.DefaultFieldsFactory
+search.min_free=1M
+listener.gov.nasa.jpf.NonNull=gov.nasa.jpf.tools.NonNullChecker
+jvm.nested_init.exclude=java.*,javax.*,sun.misc.*
+perturb.class=gov.nasa.jpf.jdart.ConcolicPerturbator
+report.publisher=console
+vm.time.class=gov.nasa.jpf.vm.SystemTime
+jdart.concolic_explorer_instance=gov.nasa.jpf.jdart.ConcolicExplorer@j...
+jvm.nested_init=false
+target=features.simple.Input
+vm.verify.ignore_path=true
+concolic.method.ctor=features.simple.Input.<init>(i:int)
+log.finest=jdart
+vm.scheduler.class=gov.nasa.jpf.vm.DelegatingScheduler
+concolic.method.foo.config=all_fields_symbolic
+cg.threads.break_yield=true
+config=/jdart-project/jdart/src/examples/fea...
+vm.max_alloc_gc=-1
+vm.shared.skip_finals=true
+report.console.finished=
+perturb.params=foo
+cg.seed=42
+vm.sysprop.source=SELECTED
+vm.heap.class=gov.nasa.jpf.vm.OVHeap
+vm.process_finalizers=false
+vm.class=gov.nasa.jpf.vm.SingleProcessVM
+peer_packages=gov.nasa.jpf.jdart.peers;gov.nasa.jpf...
+search.heuristic.branch.count_early=true
+jpf.app=/jdart-project/jdart/src/examples/fea...
+native_classpath=/jdart-project/jdart/lib/ST-4.0.5.jar...
+vm.finalize=false
+jvm.insn_factory.class=gov.nasa.jpf.jdart.ConcolicInstructio...
+listener.gov.nasa.jpf.Const=gov.nasa.jpf.tools.ConstChecker
+report.console.property_violation=
+report.console.show_steps=true
+jpf-core.sourcepath=/jdart-project/jpf-core/src/examples
+vm.classloader.class=gov.nasa.jpf.jvm.JVMSystemClassLoader...
+concolic.method.xyz=features.simple.Input.xyz(m:java.util...
+vm.statics.class=gov.nasa.jpf.vm.OVStatics
+jdart.configs.zoo.exploration.initial=true
+jdart.configs.xyz.symbolic.include=m[*
+vm.path_output=false
+vm.restorer.class=.vm.DefaultMementoRestorer
+search.class=gov.nasa.jpf.search.DFSearch
+jpf-core.classpath=/jdart-project/jpf-core/build/jpf-cla...
+config_path=/jdart-project/jdart/src/examples/fea...
+symbolic.dp=z3
+vm.pass_uncaught_handler=true
+vm.backtracker.class=gov.nasa.jpf.vm.DefaultBacktracker
+log.level=warning
+search.heuristic.branch.no_branch_return=-1
+vm.scheduler.sharedness.class=gov.nasa.jpf.vm.PathSharednessPolicy
+cg.threads.break_sleep=true
+report.console.constraint=constraint,snapshot
+report.console.class=gov.nasa.jpf.report.ConsolePublisher
+concolic.method.xyz.config=xyz
+vm.shared.never_break_fields=java.lang.Thread*.*,java.lang.System....
+vm.untracked=true
+cg.randomize_choices=NONE
+vm.gc=true
+perturb.foo.class=gov.nasa.jpf.jdart.ConcolicPerturbator
+vm.storage.class=gov.nasa.jpf.vm.JenkinsStateSet
+vm.no_orphan_methods=false
+vm.max_transition_length=50000
+listener=gov.nasa.jpf.jdart.ConcolicListener
+jpf-jdart.sourcepath=/jdart-project/jdart/src/examples
+vm.shared.skip_static_finals=false
+vm.tree_output=true
+report.class=gov.nasa.jpf.report.Reporter
+branch_start=1
+
+[FINEST] ============ End JPF Config ============
+[FINEST] Producer(): perturb.foo
+[FINEST] ConcolicListener()
+[FINEST] Producer.getChoiceGeneratorType()
+[FINEST] ConcolicListener.searchStarted(): -1
+-------- In main!
+
+-------- In <Init>(int)! i > 10
+[FINEST] createCG
+[FINEST] Initializing concolic execution of features.simple.Input.foo(I)I
+[FINEST] Making this symbolic
+[FINEST] Annotating object of class features.simple.Input
+[FINEST] processing field this.i64
+[FINEST] processing primitive field this.i64, force: false, makeSymbolic: true
+[FINEST] creating variable: gov.nasa.jpf.jdart.SymbolicField@f8c1ddd
+[FINEST] Symbolic variables:
+[FINEST] ===================
+[FINEST] i
+[FINEST] this.i64
+[FINEST] 
+[FINEST] Producer.perturb(): features.simple.Input.foo(I)I
+[FINEST] ConcolicExplorer.newPath()
+
+-------- In foo! Parameter = -1024
+i <= 64
+[FINER] Finding new valuation
+[FINER] Found: SAT : i:=-2147483641,this.i64:=2
+[FINEST] Producer.perturb(): features.simple.Input.foo(I)I
+[FINEST] ConcolicExplorer.newPath()
+[FINEST] Reexecuting with valuation i:=-2147483641,this.i64:=2
+
+-------- In foo! Parameter = -2147483641
+i & 5 == 5
+i <= 64
+[FINER] Finding new valuation
+[FINER] Found: SAT : i:=3,this.i64:=2
+[FINEST] Producer.perturb(): features.simple.Input.foo(I)I
+[FINEST] ConcolicExplorer.newPath()
+[FINEST] Reexecuting with valuation i:=3,this.i64:=2
+
+-------- In foo! Parameter = 3
+i > 64
+5 * i <= 325
+i != 65
+[FINER] Finding new valuation
+[FINER] Found: SAT : i:=65,this.i64:=2
+[FINEST] Producer.perturb(): features.simple.Input.foo(I)I
+[FINEST] ConcolicExplorer.newPath()
+[FINEST] Reexecuting with valuation i:=65,this.i64:=2
+
+-------- In foo! Parameter = 65
+i > 64
+5 * i <= 325
+i == 65
+[FINER] Finding new valuation
+[FINER] Found: SAT : i:=306783435,this.i64:=14
+[FINEST] Producer.perturb(): features.simple.Input.foo(I)I
+[FINEST] ConcolicExplorer.newPath()
+[FINEST] Reexecuting with valuation i:=306783435,this.i64:=14
+
+-------- In foo! Parameter = 306783435
+i > 64
+5 * i > 325 && i != 66
+[FINER] Finding new valuation
+[FINER] Found: SAT : i:=66,this.i64:=16
+[FINEST] Producer.perturb(): features.simple.Input.foo(I)I
+[FINEST] ConcolicExplorer.newPath()
+[FINEST] Reexecuting with valuation i:=66,this.i64:=16
+
+-------- In foo! Parameter = 66
+i > 64
+5 * i > 325 && i == 66
+[FINER] Finding new valuation
+[FINER] Found: SAT : this.i64:=-2147483646
+[FINEST] Producer.perturb(): features.simple.Input.foo(I)I
+[FINEST] ConcolicExplorer.newPath()
+[FINEST] Reexecuting with valuation i:=0,this.i64:=-2147483646
+
+-------- In foo! Parameter = 0
+[FINER] Completed analysis: gov.nasa.jpf.jdart.ConcolicMethodExplorer@5cee5251
+[FINE] Constraints Tree had depth 4
+[FINEST] ConcolicListener.searchFinished(): -1
+[FINEST] JDart.run() -- end
+[INFO] Profiling:
+JDART-run: 769 ms [0 s]
+JPF-boot: 431 ms [0 s]
+
+[INFO] Completed Analyses: 1
+[INFO] 
+[INFO] Analyses for method features.simple.Input.foo(i:int)
+[INFO] ==================================
+[INFO] -('this.i64' > 0)
+  |-[+]-('i' <= 'this.i64')
+  |      |-[+]-(('i' & 7) != 7)
+  |      |      |-[+]_/OK: [ return:='i', this.i64:='i',  ]
+  |      |      +-[-]_/OK: [ return:='i', this.i64:='i',  ]
+  |      +-[-]-((5 * 'i') > 325)
+  |            |-[+]-('i' == 66)
+  |            |      |-[+]_/ERROR: java.lang.AssertionError
+  |            |      +-[-]_/OK: [ return:=('i' + 5), this.i64:='this.i64',  ]
+  |            +-[-]-('i' == 65)
+  |                  |-[+]_/OK: [ return:=('i' + 3), this.i64:='this.i64',  ]
+  |                  +-[-]_/OK: [ return:=('i' + 3), this.i64:='this.i64',  ]
+  +-[-]_/ERROR: java.lang.AssertionError
+
+[INFO] ----Constraints Tree Statistics---
+[INFO] # paths (total): 7
+[INFO] # OK paths: 5
+[INFO] # ERROR paths: 2
+[INFO] # DONT_KNOW paths: 0
+[INFO] 
+[INFO] -------Valuation Statistics-------
+[INFO] # of valuations (OK+ERR): 7
+[INFO] 
+[INFO] java.lang.Integer:i=-1024, java.lang.Integer:this.i64=64, 
+[INFO] java.lang.Integer:i=-2147483641, java.lang.Integer:this.i64=2, 
+[INFO] java.lang.Integer:i=66, java.lang.Integer:this.i64=16, 
+[INFO] java.lang.Integer:i=306783435, java.lang.Integer:this.i64=14, 
+[INFO] java.lang.Integer:i=65, java.lang.Integer:this.i64=2, 
+[INFO] java.lang.Integer:i=3, java.lang.Integer:this.i64=2, 
+[INFO] java.lang.Integer:i=0, java.lang.Integer:this.i64=-2147483646, 
+[INFO] --------------------------------

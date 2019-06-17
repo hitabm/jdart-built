@@ -1,0 +1,8 @@
+gov/nasa/jpf/constraints/expressions/IntegerTest.class
+gov/nasa/jpf/constraints/expressions/ContextTest.class
+gov/nasa/jpf/constraints/solver/ExpressionConversionTest.class
+gov/nasa/jpf/constraints/expressions/TrigonometricTest.class
+gov/nasa/jpf/constraints/expressions/ExpressionZ3BVTest.class
+gov/nasa/jpf/constraints/expressions/ModuloTestZ3.class
+gov/nasa/jpf/constraints/expressions/ExpressionZ3Test.class
+gov/nasa/jpf/constraints/solver/QuantifierEliminationTest.class

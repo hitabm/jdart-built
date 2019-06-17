@@ -1,0 +1,6 @@
+gov/nasa/jpf/constraints/parser/ParserTest.class
+gov/nasa/jpf/constraints/expressions/IfThenElseTest.class
+gov/nasa/jpf/constraints/expressions/functions/math/IntegerFunctionTest.class
+gov/nasa/jpf/constraints/expressions/functions/math/FunctionAxiomsTest.class
+gov/nasa/jpf/constraints/expressions/PrintTest.class
+gov/nasa/jpf/constraints/expressions/functions/math/MathFunctionsTest.class

@@ -1,0 +1,8 @@
+/jdart-project/jconstraints-z3/src/test/java/gov/nasa/jpf/constraints/expressions/ModuloTestZ3.java
+/jdart-project/jconstraints-z3/src/test/java/gov/nasa/jpf/constraints/expressions/ExpressionZ3BVTest.java
+/jdart-project/jconstraints-z3/src/test/java/gov/nasa/jpf/constraints/expressions/ContextTest.java
+/jdart-project/jconstraints-z3/src/test/java/gov/nasa/jpf/constraints/expressions/IntegerTest.java
+/jdart-project/jconstraints-z3/src/test/java/gov/nasa/jpf/constraints/solver/QuantifierEliminationTest.java
+/jdart-project/jconstraints-z3/src/test/java/gov/nasa/jpf/constraints/expressions/ExpressionZ3Test.java
+/jdart-project/jconstraints-z3/src/test/java/gov/nasa/jpf/constraints/expressions/TrigonometricTest.java
+/jdart-project/jconstraints-z3/src/test/java/gov/nasa/jpf/constraints/solver/ExpressionConversionTest.java
