@@ -8,10 +8,11 @@ RUN \
   apt-get update -y && \
   apt-get install software-properties-common -y && \
   echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | debconf-set-selections && \
-  add-apt-repository ppa:webupd8team/java -y && \
+  add-apt-repository ppa:openjdk-r/ppa -y && \
   apt-get update -y && \
-  apt-get install -y oracle-java8-installer \
-                ant \
+  apt-get install -y openjdk-8-jdk && \
+  apt-get install -y ant \
+                wget \
                 maven \
                 git \
                 junit \
@@ -27,7 +28,7 @@ RUN \
 #############################################################################
 
 # set java env
-ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
+ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
 ENV JUNIT_HOME /usr/share/java
 
 RUN mkdir /jdart-project
